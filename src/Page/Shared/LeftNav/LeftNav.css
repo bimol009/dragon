@@ -1,0 +1,13 @@
+.link-underLine a{
+    text-decoration: none;
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+
+/* Dark 04 */
+
+color: #9F9F9F;
+}

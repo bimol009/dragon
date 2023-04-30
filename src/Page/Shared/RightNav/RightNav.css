@@ -1,0 +1,27 @@
+.background{
+    background-image: url('../../../assets/bg.png');
+}
+
+.background p{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.background h1{
+    font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 45px;
+/* or 150% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
