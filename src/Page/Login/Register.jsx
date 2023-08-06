@@ -1,4 +1,5 @@
 import React, { useContext, useState } from "react";
+import UseTitle from "../hook/UseTitle";
 import { useRef } from "react";
 import { Button, Container, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -7,6 +8,8 @@ import { AuthContext } from "../../Provider/AuthProvider";
 const Register = () => {
   const [show, setShow] = useState(false);
   const [accepted,setAccepted] = useState(false)
+
+  UseTitle("Registration");
 
   const {createUserEmailPass,showEmailVerification,forgotPass,user} = useContext(AuthContext)
   const emailRef = useRef("")

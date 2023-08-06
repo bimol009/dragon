@@ -1,10 +1,12 @@
 import React, { useContext, useRef, useState } from "react";
+import UseTitle from "../../hook/UseTitle";
 import { Button, Container, Form } from "react-bootstrap";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../../Provider/AuthProvider";
 
 const Login = () => {
   const [show, setShow] = useState(false);
+  UseTitle("Login");
 
   const { forgotPass, signIn } = useContext(AuthContext);
   const navigate = useNavigate();

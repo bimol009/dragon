@@ -33,7 +33,8 @@ const NavigationBar = () => {
               <Link to="/">Home</Link>
 
               <Link>About </Link>
-              <Link>career </Link>
+              <Link to="/map2">career </Link>
+              <Link to="/map">Google Map </Link>
             </Nav>
             <Nav className="profile-login">
               {user && <img className="profile-img" src={user.photoURL} alt="" />}
